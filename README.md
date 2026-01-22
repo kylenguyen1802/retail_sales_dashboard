@@ -69,18 +69,26 @@ Table: sales_returns
   - Total Refund Amount
   - Monthly Revenue Trend
   - Monthly Refund Trend
+
+![Revenue & Refund Overview](dashboards/Revenue_Refund_Overview.pdf)
+
 2. Product Performance
 - Focus: product-level contribution
 - Includes:
   - Top 10 Products by Revenue
   - Top 10 Products by Units Sold
   - Top Refunded Products
+ 
+![Product Performance](dashboards/Product_Performance.pdf)
+
 3. Customer Insights
 - Focus: customer behavior + segmentation
 - Includes:
   - Repeat vs One-time Customers
   - Guest vs Known Revenue Split
   - Top Customers by Revenue
+
+![Customer Insights](dashboards/Customer_Insights.pdf)
 
 ## ⚙️ How to Reproduce This Project
 Step 1: Create raw table
@@ -128,3 +136,4 @@ Exported clean datasets for visualization
 Customer IDs with missing values were labeled "Guest" to retain transactions, but this can reduce accuracy for customer-level retention analysis.
 
 Tableau Public does not support direct PostgreSQL connections, so CSV exports are used.
+
