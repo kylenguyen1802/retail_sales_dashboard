@@ -95,7 +95,7 @@ Step 1: Create raw table
 
 Run:
 
-1_create_table.sql
+1_create_tables.sql
 
 Step 2: Transform & clean
 
@@ -136,5 +136,6 @@ Exported clean datasets for visualization
 Customer IDs with missing values were labeled "Guest" to retain transactions, but this can reduce accuracy for customer-level retention analysis.
 
 Tableau Public does not support direct PostgreSQL connections, so CSV exports are used.
+
 
 
