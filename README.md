@@ -95,19 +95,19 @@ Step 1: Create raw table
 
 Run:
 
-create_table.sql
+1_create_table.sql
 
 Step 2: Transform & clean
 
 Run:
 
-clean_transform.sql
+2_clean_transform.sql
 
 Step 3: Run KPI queries
 
 Run:
 
-kpi_queries.sql
+3_kpi_queries.sql
 
 Step 4: Export clean data for Tableau Public
 
@@ -136,4 +136,5 @@ Exported clean datasets for visualization
 Customer IDs with missing values were labeled "Guest" to retain transactions, but this can reduce accuracy for customer-level retention analysis.
 
 Tableau Public does not support direct PostgreSQL connections, so CSV exports are used.
+
 
